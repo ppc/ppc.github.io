@@ -1,0 +1,143 @@
+/* reset CSS first */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* print styles for PPC.be
+ * last update: 08/07/2009 */
+
+body {
+  text-align: center;
+  font-size: 14px;
+  font-family: georgia, times, serif;
+  line-height: 21px;
+  background-color: black;
+  color: black; }
+
+#container {
+  width: 210mm;
+  text-align: left;
+  margin: 0 auto;
+  background-color: #fff; }
+
+a {
+  text-decoration: underline;
+  color: black; }
+  a:hover {
+    color: #666666;
+    text-decoration: none; }
+
+h1 {
+  float: left; }
+  h1 a {
+    font-family: helvetica, arial, sans-serif;
+    text-decoration: none;
+    font-size: 14pt;
+    display: block;
+    float: left;
+    margin-right: 18pt;
+    margin-left: 18pt; }
+
+h2 {
+  font-family: helvetica, arial, sans-serif;
+  color: #666666;
+  font-size: 35pt;
+  line-height: 49pt;
+  margin-bottom: 35pt; }
+
+#footer {
+  float: left;
+  font-family: helvetica, arial, sans-serif;
+  width: 210mm;
+  background-color: #333333;
+  margin-top: 42pt;
+  padding: 7pt 0; }
+
+#langswitch {
+  display: none; }
+
+.intro {
+  font-size: 21px;
+  line-height: 28px; }
+
+.address {
+  float: left;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 14px;
+  padding-top: 4pt;
+  color: #fff; }
+  .address a {
+    color: #fff;
+    text-decoration: none; }
+    .address a:hover {
+      color: black; }
+
+#nav {
+  display: none; }
+
+.column {
+  float: left;
+  margin-right: 12pt; }
+  .column p {
+    margin-bottom: 14pt; }
+
+.simple {
+  width: 50mm;
+  padding: 7pt 0; }
+
+.simplepadded {
+  width: 45.767mm;
+  padding: 7pt 6pt; }
+
+.double {
+  width: 104.233mm;
+  padding: 7pt 0; }
+
+.doublepadded {
+  width: 100mm;
+  padding: 7pt 6pt; }
+
+.triple {
+  width: 158.467mm;
+  padding: 7pt 0; }
+
+.triplepadded {
+  width: 154.233mm;
+  padding: 7pt 6pt; }
+
+.full {
+  width: 210mm; }
+
+
+.lone {
+  width: 100% !important;
+  margin-right: 0 !important; }

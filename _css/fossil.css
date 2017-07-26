@@ -1,0 +1,11 @@
+/* IE Stuff */
+
+img, h2 {
+  behavior: url("../_js/iepngfix.htc"); }
+
+#container {
+  overflow: hidden; }
+
+.lone {
+  margin-left: 225px;
+  margin-right: 0; }

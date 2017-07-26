@@ -1,0 +1,194 @@
+<html><head>
+<title>janssens sport</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+
+<script language="JavaScript">
+<!--
+var startday = new Date();
+    var clockStart = startday.getTime();
+    var myTime = new Date();
+
+    function initStopwatch() {
+      myTime = new Date();
+      return((myTime.getTime() - clockStart));
+    }
+
+    function getSecs() {
+      var elaps = new Date(initStopwatch());
+      var milliSecs = elaps.getMilliseconds();
+      var iSecs = elaps.getSeconds();
+      var iMins = elaps.getMinutes();
+/*      var milliSecs = Math.round(initStopwatch()/100);
+      var tSecs = Math.round(milliSecs/10);
+      var iSecs = (tSecs) % 60;
+      var iMins = Math.round((tSecs-30)/60);
+*/
+      var sSecs ="" + ((iSecs > 9) ? iSecs : "0" + iSecs);
+      var sMins ="" + ((iMins > 9) ? iMins : "0" + iMins);
+      var stat = (sMins+sSecs+milliSecs);
+      //status = stat;
+      for (var i=0; i < 6; i++) {
+        var x = stat.charAt(i);
+        setSrc('m'+(i+1),x)
+      }
+      window.setTimeout('getSecs()',100);
+    }
+
+    // end -->
+
+var prelArr = new Array();
+
+function getSrc(n) {
+  var chronPath = 'images/chron/';
+  return (chronPath+n+'.gif');
+}
+
+function setSrc(theID,n) {
+  d=document;
+  if (d.images[theID]) {
+    d.images[theID].src = getSrc(n);
+  }
+}
+
+for (var i=0; i < 10; i++) {prelArr[i] = getSrc(i)}
+
+
+function CM_preloadImages() { //v3.0
+  if(d.images) {
+    if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length;
+//    var a=MM_preloadImages.arguments;
+    var a=prelArr;
+    for(i=0; i<a.length; i++) {
+//      if (a[i].indexOf("#")!=0) {
+        d.MM_p[j]=new Image;
+        d.MM_p[j++].src=a[i];
+//      }
+    }
+  }
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+
+<style type="text/css">
+<!--
+body {  background-attachment: fixed; background-image: url(images/back.gif); background-repeat: no-repeat}
+marquee {  font-family: "Times New Roman", Times, serif; font-size: 13px; color: #CCFFFF}
+
+#opening {
+  font-family: 'Helvetica', Arial, sans-serif;
+  background:#fff;
+  width:340px;
+  margin:0 auto;
+  border-radius:5px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+}
+
+
+#opening td, p {
+  font-size:12px;
+  line-height:150%;
+}
+
+#opening h3, #opening p, #opening table {
+  width:320px;
+
+  padding:5px 0;
+  margin:0 auto;
+}
+
+#opening h3 {
+  margin-top:15px;
+}
+
+#opening p {
+  margin-bottom:25px;
+}
+
+
+#opening td {
+  border-bottom:1px solid #369;
+}
+
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20593235-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body bgcolor="#336699" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="CM_preloadImages()">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tbody><tr>
+  <td align="center" valign="middle">
+    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <tbody><tr>
+    <td valign="top"><img src="images/logo_adres.gif" width="700" height="67" border="0" vspace="10"></td>
+  </tr>
+  <tr>
+    <td valign="bottom"><table border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td><img name="coll_top" src="images/coll_top.jpg" width="579" height="124" border="0"></td>
+        <td><a href="#" onclick="MM_openBrWindow('plan.htm','roadmap','menubar=yes,width=500,height=400')"><img name="roadmap" src="images/roadmap.gif" width="84" height="20" border="0" vspace="15"></a><br>
+        <a href="mailto:info@janssenssport.be"><img src="images/email.gif" width="84" height="20" border="0" alt="info@janssenssport.be"></a>
+  </td>
+  </tr>
+</tbody></table>
+      <table border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td><img name="coll_midup" src="images/coll_midup.jpg" width="700" height="52" border="0"></td>
+  </tr>
+  <tr>
+        <td background="images/coll_lijn.jpg" height="22"><marquee>&nbsp;dive<img name="coll_lijn" src="images/blank.gif" width="2" height="10" border="0">&nbsp;&nbsp;golf&nbsp;&nbsp;run&nbsp;&nbsp;swim&nbsp;&nbsp;ski&nbsp;&nbsp;jump&nbsp;&nbsp;fly&nbsp;&nbsp;tennis&nbsp;&nbsp;score&nbsp;&nbsp;climb&nbsp;&nbsp;hit&nbsp;&nbsp;smash&nbsp;&nbsp;golf&nbsp;&nbsp;try&nbsp;&nbsp;dunk&nbsp;&nbsp;test&nbsp;&nbsp;ski&nbsp;&nbsp;kick&nbsp;&nbsp;sweat&nbsp;&nbsp;tennis&nbsp;&nbsp;more</marquee></td>
+  </tr>
+  <tr>
+    <td><img name="coll_middown" src="images/coll_middown.jpg" width="700" height="93" border="0"></td>
+  </tr>
+  <tr>
+    <td><img name="coll_left" src="images/coll_left.jpg" width="162" height="13" border="0"><img src="images/chrono.gif" width="101" height="13"><img src="images/chron/0.gif" width="5" height="13" name="m1"><img src="images/chron/4.gif" width="5" height="13" name="m2"><img src="images/chron/dubbelpunt.gif" width="4" height="13"><img src="images/chron/3.gif" width="5" height="13" name="m3"><img src="images/chron/2.gif" width="5" height="13" name="m4"><img src="images/chron/dubbelpunt.gif" width="4" height="13"><img src="images/chron/3.gif" width="5" height="13" name="m5"><img src="images/chron/7.gif" width="5" height="13" name="m6"><img src="images/chron/block.gif" width="7" height="13"><img name="coll_right" src="images/coll_right.jpg" width="392" height="13" border="0"></td>
+  </tr>
+  <tr>
+    <td><img name="coll_bottom" src="images/coll_bottom.jpg" width="700" height="60" border="0"></td>
+  </tr>
+  <tr bgcolor="#336699">
+    <td>
+      <div id="opening">
+      <h3>openingsuren</h3>
+      <table border="0" align="center" cellspacing="0">
+        <tr><td>Maandag </td><td>13.30 &ndash; 18.00</td><td></td></tr>
+        <tr><td>Dinsdag </td><td>10.00 &ndash; 18.00</td><td> (doorlopend)</td></tr>
+        <tr><td>Woensdag </td><td>10.00 &ndash; 18.00 **</td><td> (doorlopend)</td></tr>
+        <tr><td>Donderdag </td><td>10.00 &ndash; 18.00</td><td> (doorlopend)</td></tr>
+        <tr><td>Vrijdag </td><td>10.00 &ndash; 18.00</td><td> (doorlopend)</td></tr>
+        <tr><td>Zaterdag </td><td>10.00 &ndash; 18.00</td><td> (doorlopend)</td></tr>
+        <tr><td>Zondag </td><td>gesloten</td><td></td></tr>
+      </table>
+      <p>** Vanaf 01 NOV tem 31 MAR, woensdag open tot 20.00 !!</p>
+    </div>
+
+      </td>
+  </tr>
+
+</tbody></table>
+</td>
+  </tr>
+</tbody></table>
+</td>
+  </tr>
+</tbody></table>
+<script>getSecs()</script>
+</body></html>

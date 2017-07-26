@@ -1,0 +1,293 @@
+/* reset CSS first */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* main styles for PPC.be
+ * last update: 23/07/2009 by hansv */
+
+html, body {
+  height: 100%; }
+
+body {
+  text-align: center;
+  font-size: 14px;
+  font-family: georgia, times, serif;
+  line-height: 21px;
+  background-color: #fff;
+  color: #333333; }
+
+#container {
+  width: 960px;
+  text-align: left;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 56px; }
+
+#home #container {
+  background-color: #fff;
+  background-image: url('../_images/ppc-bg.png');
+  background-repeat: no-repeat; }
+
+a {
+  text-decoration: underline;
+  color: #333333; }
+  a:hover {
+    color: #f700fd;
+    text-decoration: none; }
+
+h1 {
+  float: left; }
+  h1 a {
+    display: block;
+    font-family: helvetica, arial, sans-serif;
+    text-indent: -5000px;
+    background-color: transparent;
+    background-image: url('../_images/ppc-logo-small.png');
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 35px;
+    float: left;
+    margin-right: 18px; }
+    h1 a:hover {
+      background-position: 0 -40px; }
+
+h2 {
+  font-family: helvetica, arial, sans-serif;
+  color: #f700fd;
+  font-size: 42px; }
+
+#footholder {
+  width: 100%;
+  text-align: center;
+  background-color: #a9afb1;
+  margin-top: 28px;
+  height: 56px;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+
+#footer {
+  text-align: left;
+  font-family: helvetica, arial, sans-serif;
+  width: 960px;
+  background-color: #a9afb1;
+  padding: 7px 0;
+  margin: 0 auto; }
+
+#langswitch {
+  display: none;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 9px;
+  float: left;
+  margin-right: 42px;
+  text-transform: uppercase; }
+  #langswitch li {
+    float: left;
+    margin-right: 42px; }
+    #langswitch li a {
+      text-decoration: none;
+      color: #a9afb1;
+      font-weight: bold; }
+      #langswitch li a:hover {
+        color: #333333; }
+
+.nl #lang-nl {
+  color: #f700fd; }
+  .nl #lang-nl:hover {
+    color: #f700fd;
+    cursor: default; }
+
+.fr #lang-fr {
+  color: #f700fd; }
+  .fr #lang-fr:hover {
+    color: #f700fd;
+    cursor: default; }
+
+.en #lang-en {
+  color: #f700fd; }
+  .en #lang-en:hover {
+    color: #f700fd;
+    cursor: default; }
+
+.de #lang-de {
+  color: #f700fd; }
+  .de #lang-de:hover {
+    color: #f700fd;
+    cursor: default; }
+
+#major {
+  height: 350px; }
+  #major h2 {
+    float: left;
+    width: 456px;
+    height: 140px;
+    margin: 210px 0 0 138px;
+    text-indent: -5000px;
+    background: transparent url('../_images/ppc-proud.png') 0 0 no-repeat; }
+
+.title h2 {
+  float: left;
+  width: 456px;
+  height: 63px;
+  margin: 56px 0;
+  text-indent: -5000px; }
+
+#direct h2 {
+  background: transparent url('../_images/ppc-title-en-directions.png') 0 0 no-repeat; }
+
+#clients h2 {
+  background: transparent url('../_images/ppc-title-en-clients.png') 0 0 no-repeat; }
+
+#contact h2 {
+  background: transparent url('../_images/ppc-title-en-contact.png') 0 0 no-repeat; }
+
+#clients h3 {
+  font-family: helvetica, arial, sans-serif;
+  color: #f700fd;
+  font-size: 14px;
+  margin-bottom: 7px; }
+
+#clients .client ul {
+  color: #333333;
+  margin-bottom: 28px; }
+  #clients .client ul li {
+    padding-left: 18px;
+    background-image: url('../_images/ppc-bullet1.png');
+    background-repeat: no-repeat; }
+
+.intro {
+  font-size: 21px;
+  line-height: 28px; }
+
+.desc {
+  font-size: 14px;
+  line-height: 21px; }
+  .desc p {
+    padding-bottom: 14px; }
+
+.address {
+  float: left;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 14px;
+  padding-top: 4px;
+  color: #fff; }
+  .address a {
+    color: #fff;
+    text-decoration: none; }
+    .address a:hover {
+      color: #333333; }
+
+#nav {
+  float: left;
+  text-transform: uppercase;
+  line-height: 28px;
+  border-right: 1px solid #fff; }
+  #nav li {
+    margin-top: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 28px;
+    float: left;
+    border-left: 1px solid #fff; }
+    #nav li a {
+      float: left;
+      display: block;
+      width: 120px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff; }
+      #nav li a:hover {
+        color: #333333; }
+
+#directions h3 {
+  font-family: helvetica, arial, sans-serif;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 7px;
+  padding-left: 18px;
+  background-image: url('../_images/ppc-arrow1.png');
+  background-position: 0 0;
+  background-repeat: no-repeat; }
+  #directions h3.on {
+    color: #f700fd;
+    background-position: 0 -31px;
+    cursor: default; }
+  #directions h3.current {
+    color: #333333;
+    background-position: 0 -62px; }
+#directions ol {
+  width: 380px;
+  margin-top: 14px;
+  margin-bottom: 28px;
+  padding-left: 36px;
+  list-style-type: decimal; }
+  #directions ol li {
+    margin-bottom: 7px; }
+
+.column {
+  float: left;
+  margin-right: 12px; }
+  .column p {
+    margin-bottom: 14px; }
+
+.simple {
+  width: 225px;
+  padding: 7px 0; }
+
+.simplepadded {
+  width: 213px;
+  padding: 7px 6px; }
+
+.double {
+  width: 462px;
+  padding: 7px 0; }
+
+.doublepadded {
+  width: 450px;
+  padding: 7px 6px; }
+
+.triple {
+  width: 699px;
+  padding: 7px 0; }
+
+.triplepadded {
+  width: 687px;
+  padding: 7px 6px; }
+
+.full {
+  width: 960px; }
+
+
+.lone {
+  margin-left: 474px; }

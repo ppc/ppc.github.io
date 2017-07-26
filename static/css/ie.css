@@ -1,0 +1,121 @@
+/* IE6, we all hate you */
+i.icon {
+  display: none; }
+
+#brand .screen-reader-text {
+  background: black url("../img/logo.png") 0 -3px no-repeat;
+  display: block;
+  text-indent: -5000px;
+  width: 195px;
+  height: 84px; }
+  #home #brand .screen-reader-text {
+    background-position: 0 0; }
+    #home #brand .screen-reader-text:hover {
+      background-position: -200px 0; }
+  #cases_heineken #brand .screen-reader-text {
+    background-position: 0 -93px; }
+    #cases_heineken #brand .screen-reader-text:hover {
+      background-position: -200px -93px; }
+  #cases_lotus #brand .screen-reader-text {
+    background-position: 0 -183px; }
+    #cases_lotus #brand .screen-reader-text:hover {
+      background-position: -200px -183px; }
+  #cases_unigro #brand .screen-reader-text {
+    background-position: 0 -273px; }
+    #cases_unigro #brand .screen-reader-text:hover {
+      background-position: -200px 273px; }
+  #cases_printers #brand .screen-reader-text {
+    background-position: 0 -363px; }
+    #cases_printers #brand .screen-reader-text:hover {
+      background-position: -200px -363px; }
+  #technical_flow #brand .screen-reader-text {
+    background-position: 0 -453px; }
+    #technical_flow #brand .screen-reader-text:hover {
+      background-position: -200px -453px; }
+  #contact #brand .screen-reader-text {
+    background-position: 0 -543px; }
+    #contact #brand .screen-reader-text:hover {
+      background-position: -200px -543px; }
+  #map #brand .screen-reader-text {
+    background-position: 0 -633px; }
+    #map #brand .screen-reader-text:hover {
+      background-position: -200px -633px; }
+  #cases #brand .screen-reader-text, #arguments_quality #brand .screen-reader-text, #arguments_savings #brand .screen-reader-text, #arguments_efficiency #brand .screen-reader-text {
+    background-position: 0 -723px; }
+    #cases #brand .screen-reader-text:hover, #arguments_quality #brand .screen-reader-text:hover, #arguments_savings #brand .screen-reader-text:hover, #arguments_efficiency #brand .screen-reader-text:hover {
+      background-position: -200px -723px; }
+
+nav.langswitch {
+  margin: 18px 0 0 0; }
+  nav.langswitch .screen-reader-text {
+    background: black url("../img/lang.png") 0 0 no-repeat;
+    display: block;
+    text-indent: -5000px;
+    width: 33px;
+    height: 39px; }
+  nav.langswitch .lang-nl .screen-reader-text {
+    background-position: -80px 0; }
+  nav.langswitch .lang-fr .screen-reader-text {
+    background-position: 0 0; }
+  nav.langswitch .lang-en .screen-reader-text {
+    background-position: -160px 0; }
+  .fr nav.langswitch .lang-fr .screen-reader-text {
+    cursor: default; }
+    #home .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -40px; }
+    #cases_heineken .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -80px; }
+    #cases_lotus .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -120px; }
+    #cases_unigro .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -160px; }
+    #cases_printers .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -200px; }
+    #technical_flow .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -240px; }
+    #contact .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -280px; }
+    #map .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: 0 -320px; }
+    #cases .fr nav.langswitch .lang-fr .screen-reader-text, #arguments_quality .fr nav.langswitch .lang-fr .screen-reader-text, #arguments_savings .fr nav.langswitch .lang-fr .screen-reader-text, #arguments_efficiency .fr nav.langswitch .lang-fr .screen-reader-text {
+      background-position: -80px -360px; }
+  .nl nav.langswitch .lang-nl .screen-reader-text {
+    cursor: default; }
+    #home .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -40px; }
+    #cases_heineken .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -80px; }
+    #cases_lotus .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -120px; }
+    #cases_unigro .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -160px; }
+    #cases_printers .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -200px; }
+    #technical_flow .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -240px; }
+    #contact .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -280px; }
+    #map .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -320px; }
+    #cases .nl nav.langswitch .lang-nl .screen-reader-text, #arguments_quality .nl nav.langswitch .lang-nl .screen-reader-text, #arguments_savings .nl nav.langswitch .lang-nl .screen-reader-text, #arguments_efficiency .nl nav.langswitch .lang-nl .screen-reader-text {
+      background-position: -80px -360px; }
+  .en nav.langswitch .lang-en .screen-reader-text {
+    cursor: default; }
+    #home .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -40px; }
+    #cases_heineken .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -80px; }
+    #cases_lotus .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -120px; }
+    #cases_unigro .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -160px; }
+    #cases_printers .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -200px; }
+    #technical_flow .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -240px; }
+    #contact .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -280px; }
+    #map .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -320px; }
+    #cases .en nav.langswitch .lang-en .screen-reader-text, #arguments_quality .en nav.langswitch .lang-en .screen-reader-text, #arguments_savings .en nav.langswitch .lang-en .screen-reader-text, #arguments_efficiency .en nav.langswitch .lang-en .screen-reader-text {
+      background-position: -160px -360px; }
